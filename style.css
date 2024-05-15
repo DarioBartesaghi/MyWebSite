@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+
+
+  header {
+    background-color: #008000 ;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    
+      
+  }
+
+  span{
+    color: white;
+    padding-top: 200 px;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #008000 ;
+    
+  }
+
+
+  nav ul li  {
+    display: inline;
+    margin-right: 20px;
+    background-color: #008000 ;
+  }
+
+
+  nav ul li a {
+    color: white;
+  }
+
+  #map{
+    height: 500px;
+    width: 100%;
+  }
+  section {
+    padding: 200px;
+    margin: 20px;
+    background-color: #008000 ;
+    color: #fff;
+  }
+  
+  footer p {
+  background-color: #006400; 
+  margin: 0;
+  height: 50px;
+  color: #fff;
+  text-align: center;
+}
+/* CSS */
+.smaller-image {
+  max-width: 100px; /* Puoi regolare questa percentuale per ridurre la grandezza dell'immagine */
+  height: auto; /* Mantieni l'aspetto proporzionato */
+}
+
+.carousel-inner img {
+  max-width: 70%;
+  height: auto;
+  margin: auto; /* Opzionale: per centrare le immagini all'interno del carousel */
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 100px; /* Larghezza desiderata per le icone dei controlli */
+    height: 100px; /* Altezza desiderata per le icone dei controlli */
+    color: black;
+}
+.sponsor-title {
+  color: green; /* Colore del testo */
+  text-align: center; /* Centrare il testo */
+            margin: 0 auto;
+}
